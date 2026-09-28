@@ -5,14 +5,14 @@
 Aplicativo desktop de gestão de tarefas com Kanban, calendário, EXP, Gold e criação de personagem em pixel art.
 
 **Criador e diretor criativo:** [Jonas David Kosniyzeko](https://github.com/jnsdavid95)  
-**Versão:** 0.4.0 — primeira versão preparada para publicação, em fase experimental.  
+**Versão publicada:** 0.4.0, em fase experimental. A branch `main` inclui melhorias em desenvolvimento posteriores a essa Release.  
 **Código próprio:** proprietário. Consulte [LICENSE.md](LICENSE.md).
 
 ![Criador de personagem do QuestDesk](docs/character.png)
 
 ## Funcionalidades
 
-- **Missões:** criar e editar tarefas, pesquisar e organizar cards por arrastar e soltar ou seletor de status.
+- **Missões:** criar e editar tarefas, pesquisar e organizar cards por arrastar e soltar ou seletor de etapa. Na branch `main`, o Kanban permite criar, renomear, reordenar e remover etapas vazias.
 - **Progressão:** EXP, níveis e Gold; cada tarefa concede recompensas uma única vez.
 - **Personagens:** três bases, cinco tons de pele, seis cores de cabelo, prévia e caminhada em quatro direções.
 - **Equipamentos:** catálogo inicial de 20 peças LPC; 30% de chance de drop na primeira conclusão de uma tarefa, priorizando peças novas compatíveis.
@@ -31,9 +31,9 @@ Os binários são distribuídos separadamente do código-fonte:
 | Windows x64 | `QuestDesk-Setup-0.4.0-windows-x64.exe` | Executar o instalador; atalho no menu Iniciar |
 | Linux x86_64 / Bazzite | `QuestDesk-0.4.0-linux-x86_64.AppImage` | Permitir execução e abrir; integração ao menu via Gear Lever |
 
-Não é necessário instalar Node.js para usar esses binários. Veja [instalação e atualização](docs/INSTALACAO.md).
+Não é necessário instalar Node.js para usar esses binários. Os instaladores da v0.4.0 ainda usam o quadro de três etapas fixas; o Kanban configurável está no código da branch `main`. Veja [instalação e atualização](docs/INSTALACAO.md).
 
-**Estado da validação:** build e 18 testes de domínio aprovados; interface revisada no Chromium; pacotes Windows/Linux gerados e inspecionados. A instalação, abertura e desinstalação nos sistemas de destino ainda precisam ser testadas. O instalador Windows não tem assinatura digital.
+**Estado da validação:** build e 19 testes de domínio aprovados na branch `main`; a interface da v0.4.0 foi revisada no Chromium. A instalação, abertura e desinstalação nos sistemas de destino ainda precisam ser testadas. O instalador Windows não tem assinatura digital.
 
 ## Executar a partir do código
 

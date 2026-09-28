@@ -2,6 +2,12 @@
 
 As versões anteriores a 0.4.0 representam marcos de desenvolvimento. Não foram publicadas como Releases deste repositório.
 
+## Em desenvolvimento — após v0.4.0
+
+- Quadro Kanban com até 12 etapas, nomes editáveis, reordenação por arraste ou menu e remoção de etapas personalizadas vazias.
+- Criação de missões diretamente em cada etapa, busca e seleção de destino em cada card.
+- Migração automática dos dados anteriores para as três etapas padrão; EXP, Gold e drops continuam ligados somente à etapa de conclusão.
+
 ## 0.4.0 — primeira publicação preparada — 2026-09-28
 
 - Criador de personagem LPC com três bases, cores, cabelos, prévia, giro e caminhada.
