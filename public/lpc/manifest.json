@@ -1,0 +1,952 @@
+{
+  "body-male": {
+    "source": "body/bodies/male/walk.png",
+    "credit": "body/bodies/male/walk.png",
+    "file": "body-male.png",
+    "sha256": "1e0e8f0c11ba5f4f7b3d4439fc416802b4227da2fe146c13de3de254d9f87f77"
+  },
+  "head-male": {
+    "source": "head/heads/human/male/walk.png",
+    "credit": "head/heads/human/male/walk.png",
+    "file": "head-male.png",
+    "sha256": "7e863954dc8c3c748d0727415c39888106bdd3779beb2e3b18011a3a9ef3e53c"
+  },
+  "body-female": {
+    "source": "body/bodies/female/walk.png",
+    "credit": "body/bodies/female/walk.png",
+    "file": "body-female.png",
+    "sha256": "594cb64a032d06d560f23b17f77b572e2dc8ba61df490cfca43f15316c85cfcf"
+  },
+  "head-female": {
+    "source": "head/heads/human/female/walk.png",
+    "credit": "head/heads/human/female/walk.png",
+    "file": "head-female.png",
+    "sha256": "7ac84c09c9e126e5fd0b648c180901e24ddb116c7965cd3db6f2f653947b90bd"
+  },
+  "body-child": {
+    "source": "body/bodies/child/walk.png",
+    "credit": "body/bodies/child/walk.png",
+    "file": "body-child.png",
+    "sha256": "7c3ac85afcfcb4557f3d0b335605149393665dd2d00c1d3b1a2a6a325d291511"
+  },
+  "head-child": {
+    "source": "head/heads/human/child/walk.png",
+    "credit": "head/heads/human/child/walk.png",
+    "file": "head-child.png",
+    "sha256": "26f83d198cc26eb37a1cc95f7adfe891efb004bdb686d2bbc0d5d798070bb91d"
+  },
+  "hair-messy1": {
+    "source": "hair/messy1/adult/walk.png",
+    "credit": "hair/messy1/adult/walk.png",
+    "file": "hair-messy1.png",
+    "sha256": "a3f389578b71cabf457a8f1e617e232ce8104c2f1371f44fafe947d5070d7fca"
+  },
+  "hair-plain": {
+    "source": "hair/plain/adult/walk.png",
+    "credit": "hair/plain/adult/walk.png",
+    "file": "hair-plain.png",
+    "sha256": "4198b372f7381b7d12e516ddc69818dd50132224d1e6d8825f3dd920b0995b28"
+  },
+  "hair-bob": {
+    "source": "hair/bob/adult/walk.png",
+    "credit": "hair/bob/adult/walk.png",
+    "file": "hair-bob.png",
+    "sha256": "40f1d1420f3bdbe2646654995cd2906b9a0edf4252c73060b34d5fcc27be0bcf"
+  },
+  "hair-afro": {
+    "source": "hair/afro/adult/walk.png",
+    "credit": "hair/afro/adult/walk.png",
+    "file": "hair-afro.png",
+    "sha256": "3f01666af81773d3a844b121547f59389bbf4145ef5ad05c76ccbd1de357d134"
+  },
+  "hair-wavy": {
+    "source": "hair/wavy/child/walk.png",
+    "credit": "hair/wavy/child/walk.png",
+    "file": "hair-wavy.png",
+    "sha256": "3805c0f2d2409768d45c08b21ef3b93a9daae8a44e7944a510658e2c7fca8f51"
+  },
+  "outfit-male-blue": {
+    "source": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "file": "outfit-male-blue.png",
+    "variant": "blue",
+    "sha256": "8b1c79d535d7a233371c9398ca51b196aa8fdf06117bd0eafd7fbcbf438d711b",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#180716",
+        "#281E41",
+        "#322D6A",
+        "#3C49AD",
+        "#466AC9",
+        "#61A0EF"
+      ]
+    }
+  },
+  "outfit-female-blue": {
+    "source": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "file": "outfit-female-blue.png",
+    "variant": "blue",
+    "sha256": "6833ea1facfa45d07356a3b85ac022742db916f677c0a20474719aad61a13bc8",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#180716",
+        "#281E41",
+        "#322D6A",
+        "#3C49AD",
+        "#466AC9",
+        "#61A0EF"
+      ]
+    }
+  },
+  "outfit-child-blue": {
+    "source": "torso/clothes/shirt/child/walk/blue.png",
+    "credit": "torso/clothes/shirt/child/walk.png",
+    "file": "outfit-child-blue.png",
+    "sha256": "4100d226f4fbca77afc8b5e03718d868082671c87b9555066ce9adc3169f06e1"
+  },
+  "outfit-male-green": {
+    "source": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "file": "outfit-male-green.png",
+    "variant": "green",
+    "sha256": "8b1c79d535d7a233371c9398ca51b196aa8fdf06117bd0eafd7fbcbf438d711b",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#101820",
+        "#192832",
+        "#0B5C2F",
+        "#214437",
+        "#2F8136",
+        "#64A42C"
+      ]
+    }
+  },
+  "outfit-female-green": {
+    "source": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "file": "outfit-female-green.png",
+    "variant": "green",
+    "sha256": "6833ea1facfa45d07356a3b85ac022742db916f677c0a20474719aad61a13bc8",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#101820",
+        "#192832",
+        "#0B5C2F",
+        "#214437",
+        "#2F8136",
+        "#64A42C"
+      ]
+    }
+  },
+  "outfit-child-green": {
+    "source": "torso/clothes/shirt/child/walk/green.png",
+    "credit": "torso/clothes/shirt/child/walk.png",
+    "file": "outfit-child-green.png",
+    "sha256": "5d579fb799a48c6383f06e37e5c6300cede0808cde737cf9f48e5970073ee385"
+  },
+  "outfit-male-white": {
+    "source": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "file": "outfit-male-white.png",
+    "variant": "white",
+    "sha256": "8b1c79d535d7a233371c9398ca51b196aa8fdf06117bd0eafd7fbcbf438d711b",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ]
+    }
+  },
+  "outfit-female-white": {
+    "source": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "file": "outfit-female-white.png",
+    "variant": "white",
+    "sha256": "6833ea1facfa45d07356a3b85ac022742db916f677c0a20474719aad61a13bc8",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ]
+    }
+  },
+  "outfit-child-white": {
+    "source": "torso/clothes/shirt/child/walk/white.png",
+    "credit": "torso/clothes/shirt/child/walk.png",
+    "file": "outfit-child-white.png",
+    "sha256": "79a882bfa891995ed880f62a9bf83739f32faca702a9cb6b7316adb94b9035ba"
+  },
+  "outfit-male-red": {
+    "source": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "file": "outfit-male-red.png",
+    "variant": "red",
+    "sha256": "8b1c79d535d7a233371c9398ca51b196aa8fdf06117bd0eafd7fbcbf438d711b",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#1d131e",
+        "#400B1F",
+        "#651117",
+        "#82171C",
+        "#AB1E1E",
+        "#CD2429"
+      ]
+    }
+  },
+  "outfit-female-red": {
+    "source": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "file": "outfit-female-red.png",
+    "variant": "red",
+    "sha256": "6833ea1facfa45d07356a3b85ac022742db916f677c0a20474719aad61a13bc8",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#1d131e",
+        "#400B1F",
+        "#651117",
+        "#82171C",
+        "#AB1E1E",
+        "#CD2429"
+      ]
+    }
+  },
+  "outfit-child-red": {
+    "source": "torso/clothes/shirt/child/walk/red.png",
+    "credit": "torso/clothes/shirt/child/walk.png",
+    "file": "outfit-child-red.png",
+    "sha256": "54b7ec0f7789a6614de924ecfc555074b5d5ec996f4aa7ec56d079ae421561f0"
+  },
+  "outfit-male-lavender": {
+    "source": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "file": "outfit-male-lavender.png",
+    "variant": "lavender",
+    "sha256": "8b1c79d535d7a233371c9398ca51b196aa8fdf06117bd0eafd7fbcbf438d711b",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#13112d",
+        "#2B225A",
+        "#402E82",
+        "#7141B2",
+        "#A966DD",
+        "#D085ED"
+      ]
+    }
+  },
+  "outfit-female-lavender": {
+    "source": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "file": "outfit-female-lavender.png",
+    "variant": "lavender",
+    "sha256": "6833ea1facfa45d07356a3b85ac022742db916f677c0a20474719aad61a13bc8",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#13112d",
+        "#2B225A",
+        "#402E82",
+        "#7141B2",
+        "#A966DD",
+        "#D085ED"
+      ]
+    }
+  },
+  "outfit-child-lavender": {
+    "source": "torso/clothes/shirt/child/walk/lavender.png",
+    "credit": "torso/clothes/shirt/child/walk.png",
+    "file": "outfit-child-lavender.png",
+    "sha256": "7d7ed604663f4bbd25236118158e9f9e07986253a5b9ce8c715949511934e373"
+  },
+  "outfit-male-gray": {
+    "source": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/male/walk.png",
+    "file": "outfit-male-gray.png",
+    "variant": "gray",
+    "sha256": "8b1c79d535d7a233371c9398ca51b196aa8fdf06117bd0eafd7fbcbf438d711b",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#0e0e18",
+        "#201E2B",
+        "#373340",
+        "#585561",
+        "#797580",
+        "#A2A0A4"
+      ]
+    }
+  },
+  "outfit-female-gray": {
+    "source": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "credit": "torso/clothes/longsleeve/longsleeve/female/walk.png",
+    "file": "outfit-female-gray.png",
+    "variant": "gray",
+    "sha256": "6833ea1facfa45d07356a3b85ac022742db916f677c0a20474719aad61a13bc8",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#0e0e18",
+        "#201E2B",
+        "#373340",
+        "#585561",
+        "#797580",
+        "#A2A0A4"
+      ]
+    }
+  },
+  "outfit-child-gray": {
+    "source": "torso/clothes/shirt/child/walk/gray.png",
+    "credit": "torso/clothes/shirt/child/walk.png",
+    "file": "outfit-child-gray.png",
+    "sha256": "d4c91c8c350914621df146133e60daa46ce560512455cfc6dee62db70da89b44"
+  },
+  "legs-male-black": {
+    "source": "legs/pants/male/walk.png",
+    "credit": "legs/pants/male/walk.png",
+    "file": "legs-male-black.png",
+    "variant": "black",
+    "sha256": "2de5a3247743ffa37febdf3464cc0a83e79f64d1028aed410832ee29bea850b6",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#000000",
+        "#101414",
+        "#1C2222",
+        "#22282A",
+        "#2A3034",
+        "#4A5057"
+      ]
+    }
+  },
+  "legs-female-black": {
+    "source": "legs/pants/thin/walk.png",
+    "credit": "legs/pants/thin/walk.png",
+    "file": "legs-female-black.png",
+    "variant": "black",
+    "sha256": "064ffc33544e67bd13c574fd8b18a82a51e25d77e628f5eeccbc76a8860b2f83",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#000000",
+        "#101414",
+        "#1C2222",
+        "#22282A",
+        "#2A3034",
+        "#4A5057"
+      ]
+    }
+  },
+  "legs-child-black": {
+    "source": "legs/pants/child/walk/black.png",
+    "credit": "legs/pants/child/walk.png",
+    "file": "legs-child-black.png",
+    "sha256": "bb1c90a358b6e04ae6877fdd415d5d2b4a21ca1d5d2d25a0d98d4e07b7ff3236"
+  },
+  "legs-male-blue": {
+    "source": "legs/pants/male/walk.png",
+    "credit": "legs/pants/male/walk.png",
+    "file": "legs-male-blue.png",
+    "variant": "blue",
+    "sha256": "2de5a3247743ffa37febdf3464cc0a83e79f64d1028aed410832ee29bea850b6",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#180716",
+        "#281E41",
+        "#322D6A",
+        "#3C49AD",
+        "#466AC9",
+        "#61A0EF"
+      ]
+    }
+  },
+  "legs-female-blue": {
+    "source": "legs/pants/thin/walk.png",
+    "credit": "legs/pants/thin/walk.png",
+    "file": "legs-female-blue.png",
+    "variant": "blue",
+    "sha256": "064ffc33544e67bd13c574fd8b18a82a51e25d77e628f5eeccbc76a8860b2f83",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#180716",
+        "#281E41",
+        "#322D6A",
+        "#3C49AD",
+        "#466AC9",
+        "#61A0EF"
+      ]
+    }
+  },
+  "legs-child-blue": {
+    "source": "legs/pants/child/walk/blue.png",
+    "credit": "legs/pants/child/walk.png",
+    "file": "legs-child-blue.png",
+    "sha256": "a94a64d45751b638a9d93df4985e6c00f26018d85df414787adfd870dc27b54d"
+  },
+  "legs-male-brown": {
+    "source": "legs/pants/male/walk.png",
+    "credit": "legs/pants/male/walk.png",
+    "file": "legs-male-brown.png",
+    "variant": "brown",
+    "sha256": "2de5a3247743ffa37febdf3464cc0a83e79f64d1028aed410832ee29bea850b6",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#1d131e",
+        "#411E05",
+        "#4B2B13",
+        "#62351C",
+        "#744B30",
+        "#996B4A"
+      ]
+    }
+  },
+  "legs-female-brown": {
+    "source": "legs/pants/thin/walk.png",
+    "credit": "legs/pants/thin/walk.png",
+    "file": "legs-female-brown.png",
+    "variant": "brown",
+    "sha256": "064ffc33544e67bd13c574fd8b18a82a51e25d77e628f5eeccbc76a8860b2f83",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#1d131e",
+        "#411E05",
+        "#4B2B13",
+        "#62351C",
+        "#744B30",
+        "#996B4A"
+      ]
+    }
+  },
+  "legs-child-brown": {
+    "source": "legs/pants/child/walk/brown.png",
+    "credit": "legs/pants/child/walk.png",
+    "file": "legs-child-brown.png",
+    "sha256": "880df9765bc0c2d257a3b1ede25e6b8db1ca2857a889ed49898530e7b9f282d8"
+  },
+  "legs-male-red": {
+    "source": "legs/pants/male/walk.png",
+    "credit": "legs/pants/male/walk.png",
+    "file": "legs-male-red.png",
+    "variant": "red",
+    "sha256": "2de5a3247743ffa37febdf3464cc0a83e79f64d1028aed410832ee29bea850b6",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#1d131e",
+        "#400B1F",
+        "#651117",
+        "#82171C",
+        "#AB1E1E",
+        "#CD2429"
+      ]
+    }
+  },
+  "legs-female-red": {
+    "source": "legs/pants/thin/walk.png",
+    "credit": "legs/pants/thin/walk.png",
+    "file": "legs-female-red.png",
+    "variant": "red",
+    "sha256": "064ffc33544e67bd13c574fd8b18a82a51e25d77e628f5eeccbc76a8860b2f83",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#1d131e",
+        "#400B1F",
+        "#651117",
+        "#82171C",
+        "#AB1E1E",
+        "#CD2429"
+      ]
+    }
+  },
+  "legs-child-red": {
+    "source": "legs/pants/child/walk/red.png",
+    "credit": "legs/pants/child/walk.png",
+    "file": "legs-child-red.png",
+    "sha256": "7c22313b1ef47047be4459c6fd64713def6f1dc70f33a3bdd78a41f212b41c05"
+  },
+  "boots-male-brown": {
+    "source": "feet/boots/basic/male/walk.png",
+    "credit": "feet/boots/basic/male/walk.png",
+    "file": "boots-male-brown.png",
+    "variant": "brown",
+    "sha256": "13521e96fe8c6033c54622a8137cc1a05964a9db3bd1f5a115028951e5cecf18",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#1d131e",
+        "#411E05",
+        "#4B2B13",
+        "#62351C",
+        "#744B30",
+        "#996B4A"
+      ]
+    }
+  },
+  "boots-female-brown": {
+    "source": "feet/boots/basic/thin/walk.png",
+    "credit": "feet/boots/basic/thin/walk.png",
+    "file": "boots-female-brown.png",
+    "variant": "brown",
+    "sha256": "50eb7e0a6b3cb1c939ee1a68bd0ac42736f6dbf55f2e5aa4ecef7d2ff858a1d7",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#1d131e",
+        "#411E05",
+        "#4B2B13",
+        "#62351C",
+        "#744B30",
+        "#996B4A"
+      ]
+    }
+  },
+  "boots-male-black": {
+    "source": "feet/boots/basic/male/walk.png",
+    "credit": "feet/boots/basic/male/walk.png",
+    "file": "boots-male-black.png",
+    "variant": "black",
+    "sha256": "13521e96fe8c6033c54622a8137cc1a05964a9db3bd1f5a115028951e5cecf18",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#000000",
+        "#101414",
+        "#1C2222",
+        "#22282A",
+        "#2A3034",
+        "#4A5057"
+      ]
+    }
+  },
+  "boots-female-black": {
+    "source": "feet/boots/basic/thin/walk.png",
+    "credit": "feet/boots/basic/thin/walk.png",
+    "file": "boots-female-black.png",
+    "variant": "black",
+    "sha256": "50eb7e0a6b3cb1c939ee1a68bd0ac42736f6dbf55f2e5aa4ecef7d2ff858a1d7",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#000000",
+        "#101414",
+        "#1C2222",
+        "#22282A",
+        "#2A3034",
+        "#4A5057"
+      ]
+    }
+  },
+  "boots-male-blue": {
+    "source": "feet/boots/basic/male/walk.png",
+    "credit": "feet/boots/basic/male/walk.png",
+    "file": "boots-male-blue.png",
+    "variant": "blue",
+    "sha256": "13521e96fe8c6033c54622a8137cc1a05964a9db3bd1f5a115028951e5cecf18",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#180716",
+        "#281E41",
+        "#322D6A",
+        "#3C49AD",
+        "#466AC9",
+        "#61A0EF"
+      ]
+    }
+  },
+  "boots-female-blue": {
+    "source": "feet/boots/basic/thin/walk.png",
+    "credit": "feet/boots/basic/thin/walk.png",
+    "file": "boots-female-blue.png",
+    "variant": "blue",
+    "sha256": "50eb7e0a6b3cb1c939ee1a68bd0ac42736f6dbf55f2e5aa4ecef7d2ff858a1d7",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#180716",
+        "#281E41",
+        "#322D6A",
+        "#3C49AD",
+        "#466AC9",
+        "#61A0EF"
+      ]
+    }
+  },
+  "cape-bg-blue": {
+    "source": "cape/solid/bg/walk.png",
+    "credit": "cape/solid/bg/walk.png",
+    "file": "cape-bg-blue.png",
+    "variant": "blue",
+    "sha256": "27b02ac756f4a3d19f46fa0f113b42f40387e8f6d8c98a6487f1fc1a525fe059",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#180716",
+        "#281E41",
+        "#322D6A",
+        "#3C49AD",
+        "#466AC9",
+        "#61A0EF"
+      ]
+    }
+  },
+  "cape-fg-blue": {
+    "source": "cape/solid/fg/walk.png",
+    "credit": "cape/solid/fg/walk.png",
+    "file": "cape-fg-blue.png",
+    "variant": "blue",
+    "sha256": "1aa730ea5691a376b91fa44db7c8fa369127b9e0347c3a31d6654fa3a932b472",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#180716",
+        "#281E41",
+        "#322D6A",
+        "#3C49AD",
+        "#466AC9",
+        "#61A0EF"
+      ]
+    }
+  },
+  "cape-bg-red": {
+    "source": "cape/solid/bg/walk.png",
+    "credit": "cape/solid/bg/walk.png",
+    "file": "cape-bg-red.png",
+    "variant": "red",
+    "sha256": "27b02ac756f4a3d19f46fa0f113b42f40387e8f6d8c98a6487f1fc1a525fe059",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#1d131e",
+        "#400B1F",
+        "#651117",
+        "#82171C",
+        "#AB1E1E",
+        "#CD2429"
+      ]
+    }
+  },
+  "cape-fg-red": {
+    "source": "cape/solid/fg/walk.png",
+    "credit": "cape/solid/fg/walk.png",
+    "file": "cape-fg-red.png",
+    "variant": "red",
+    "sha256": "1aa730ea5691a376b91fa44db7c8fa369127b9e0347c3a31d6654fa3a932b472",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#1d131e",
+        "#400B1F",
+        "#651117",
+        "#82171C",
+        "#AB1E1E",
+        "#CD2429"
+      ]
+    }
+  },
+  "cape-bg-lavender": {
+    "source": "cape/solid/bg/walk.png",
+    "credit": "cape/solid/bg/walk.png",
+    "file": "cape-bg-lavender.png",
+    "variant": "lavender",
+    "sha256": "27b02ac756f4a3d19f46fa0f113b42f40387e8f6d8c98a6487f1fc1a525fe059",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#13112d",
+        "#2B225A",
+        "#402E82",
+        "#7141B2",
+        "#A966DD",
+        "#D085ED"
+      ]
+    }
+  },
+  "cape-fg-lavender": {
+    "source": "cape/solid/fg/walk.png",
+    "credit": "cape/solid/fg/walk.png",
+    "file": "cape-fg-lavender.png",
+    "variant": "lavender",
+    "sha256": "1aa730ea5691a376b91fa44db7c8fa369127b9e0347c3a31d6654fa3a932b472",
+    "palette": {
+      "from": [
+        "#281820",
+        "#4D4A5D",
+        "#958080",
+        "#C4B59F",
+        "#E5E6C7",
+        "#FFFFFF"
+      ],
+      "to": [
+        "#13112d",
+        "#2B225A",
+        "#402E82",
+        "#7141B2",
+        "#A966DD",
+        "#D085ED"
+      ]
+    }
+  },
+  "wizard-blue": {
+    "source": "hat/magic/wizard/base/adult/walk/blue.png",
+    "credit": "hat/magic/wizard/base/adult/walk.png",
+    "file": "wizard-blue.png",
+    "sha256": "d7a85b06e87149e1c627a9eec17209333ee8d97127a5b6200ce58dfc58557823"
+  },
+  "wizard-lavender": {
+    "source": "hat/magic/wizard/base/adult/walk/lavender.png",
+    "credit": "hat/magic/wizard/base/adult/walk.png",
+    "file": "wizard-lavender.png",
+    "sha256": "6edd9c54164e728669c152bd2d317ed12f022c805566b5bc38e7e7f61c09f25c"
+  },
+  "wizard-red": {
+    "source": "hat/magic/wizard/base/adult/walk/red.png",
+    "credit": "hat/magic/wizard/base/adult/walk.png",
+    "file": "wizard-red.png",
+    "sha256": "31a984e44e55825ad34283fe8ee4dab0d74670f504df2cd3cf450a892e1ae8e5"
+  },
+  "crown-crown_gold": {
+    "source": "hat/formal/crown/adult/walk/crown_gold.png",
+    "credit": "hat/formal/crown/adult/walk.png",
+    "file": "crown-crown_gold.png",
+    "sha256": "7d89d65918499df85f4f78569490d54b408e7e8d4e702957bfb37b511949f17a"
+  }
+}
