@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "outfit-blue",
+    "name": "Traje azul",
+    "slot": "outfit",
+    "rarity": "common",
+    "starter": true,
+    "layers": {
+      "male": [
+        {
+          "file": "outfit-male-blue.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#180716",
+              "#281E41",
+              "#322D6A",
+              "#3C49AD",
+              "#466AC9",
+              "#61A0EF"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "outfit-female-blue.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#180716",
+              "#281E41",
+              "#322D6A",
+              "#3C49AD",
+              "#466AC9",
+              "#61A0EF"
+            ]
+          }
+        }
+      ],
+      "child": [
+        {
+          "file": "outfit-child-blue.png",
+          "z": 35
+        }
+      ]
+    }
+  },
+  {
+    "id": "outfit-green",
+    "name": "Traje da floresta",
+    "slot": "outfit",
+    "rarity": "common",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "outfit-male-green.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#101820",
+              "#192832",
+              "#0B5C2F",
+              "#214437",
+              "#2F8136",
+              "#64A42C"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "outfit-female-green.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#101820",
+              "#192832",
+              "#0B5C2F",
+              "#214437",
+              "#2F8136",
+              "#64A42C"
+            ]
+          }
+        }
+      ],
+      "child": [
+        {
+          "file": "outfit-child-green.png",
+          "z": 35
+        }
+      ]
+    }
+  },
+  {
+    "id": "outfit-white",
+    "name": "Traje da aurora",
+    "slot": "outfit",
+    "rarity": "common",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "outfit-male-white.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "outfit-female-white.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ]
+          }
+        }
+      ],
+      "child": [
+        {
+          "file": "outfit-child-white.png",
+          "z": 35
+        }
+      ]
+    }
+  },
+  {
+    "id": "outfit-red",
+    "name": "Traje rubi",
+    "slot": "outfit",
+    "rarity": "common",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "outfit-male-red.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#400B1F",
+              "#651117",
+              "#82171C",
+              "#AB1E1E",
+              "#CD2429"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "outfit-female-red.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#400B1F",
+              "#651117",
+              "#82171C",
+              "#AB1E1E",
+              "#CD2429"
+            ]
+          }
+        }
+      ],
+      "child": [
+        {
+          "file": "outfit-child-red.png",
+          "z": 35
+        }
+      ]
+    }
+  },
+  {
+    "id": "outfit-lavender",
+    "name": "Traje arcano",
+    "slot": "outfit",
+    "rarity": "rare",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "outfit-male-lavender.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#13112d",
+              "#2B225A",
+              "#402E82",
+              "#7141B2",
+              "#A966DD",
+              "#D085ED"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "outfit-female-lavender.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#13112d",
+              "#2B225A",
+              "#402E82",
+              "#7141B2",
+              "#A966DD",
+              "#D085ED"
+            ]
+          }
+        }
+      ],
+      "child": [
+        {
+          "file": "outfit-child-lavender.png",
+          "z": 35
+        }
+      ]
+    }
+  },
+  {
+    "id": "outfit-gray",
+    "name": "Traje de viajante",
+    "slot": "outfit",
+    "rarity": "rare",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "outfit-male-gray.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#0e0e18",
+              "#201E2B",
+              "#373340",
+              "#585561",
+              "#797580",
+              "#A2A0A4"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "outfit-female-gray.png",
+          "z": 35,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#0e0e18",
+              "#201E2B",
+              "#373340",
+              "#585561",
+              "#797580",
+              "#A2A0A4"
+            ]
+          }
+        }
+      ],
+      "child": [
+        {
+          "file": "outfit-child-gray.png",
+          "z": 35
+        }
+      ]
+    }
+  },
+  {
+    "id": "legs-black",
+    "name": "Calça escura",
+    "slot": "legs",
+    "rarity": "common",
+    "starter": true,
+    "layers": {
+      "male": [
+        {
+          "file": "legs-male-black.png",
+          "z": 20,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#000000",
+              "#101414",
+              "#1C2222",
+              "#22282A",
+              "#2A3034",
+              "#4A5057"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "legs-female-black.png",
+          "z": 20,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#000000",
+              "#101414",
+              "#1C2222",
+              "#22282A",
+              "#2A3034",
+              "#4A5057"
+            ]
+          }
+        }
+      ],
+      "child": [
+        {
+          "file": "legs-child-black.png",
+          "z": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "legs-blue",
+    "name": "Calça azul",
+    "slot": "legs",
+    "rarity": "common",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "legs-male-blue.png",
+          "z": 20,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#180716",
+              "#281E41",
+              "#322D6A",
+              "#3C49AD",
+              "#466AC9",
+              "#61A0EF"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "legs-female-blue.png",
+          "z": 20,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#180716",
+              "#281E41",
+              "#322D6A",
+              "#3C49AD",
+              "#466AC9",
+              "#61A0EF"
+            ]
+          }
+        }
+      ],
+      "child": [
+        {
+          "file": "legs-child-blue.png",
+          "z": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "legs-brown",
+    "name": "Calça de couro",
+    "slot": "legs",
+    "rarity": "common",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "legs-male-brown.png",
+          "z": 20,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#411E05",
+              "#4B2B13",
+              "#62351C",
+              "#744B30",
+              "#996B4A"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "legs-female-brown.png",
+          "z": 20,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#411E05",
+              "#4B2B13",
+              "#62351C",
+              "#744B30",
+              "#996B4A"
+            ]
+          }
+        }
+      ],
+      "child": [
+        {
+          "file": "legs-child-brown.png",
+          "z": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "legs-red",
+    "name": "Calça rubi",
+    "slot": "legs",
+    "rarity": "common",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "legs-male-red.png",
+          "z": 20,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#400B1F",
+              "#651117",
+              "#82171C",
+              "#AB1E1E",
+              "#CD2429"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "legs-female-red.png",
+          "z": 20,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#400B1F",
+              "#651117",
+              "#82171C",
+              "#AB1E1E",
+              "#CD2429"
+            ]
+          }
+        }
+      ],
+      "child": [
+        {
+          "file": "legs-child-red.png",
+          "z": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "boots-brown",
+    "name": "Botas de couro",
+    "slot": "feet",
+    "rarity": "common",
+    "starter": true,
+    "layers": {
+      "male": [
+        {
+          "file": "boots-male-brown.png",
+          "z": 25,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#411E05",
+              "#4B2B13",
+              "#62351C",
+              "#744B30",
+              "#996B4A"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "boots-female-brown.png",
+          "z": 25,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#411E05",
+              "#4B2B13",
+              "#62351C",
+              "#744B30",
+              "#996B4A"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "boots-black",
+    "name": "Botas sombrias",
+    "slot": "feet",
+    "rarity": "common",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "boots-male-black.png",
+          "z": 25,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#000000",
+              "#101414",
+              "#1C2222",
+              "#22282A",
+              "#2A3034",
+              "#4A5057"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "boots-female-black.png",
+          "z": 25,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#000000",
+              "#101414",
+              "#1C2222",
+              "#22282A",
+              "#2A3034",
+              "#4A5057"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "boots-blue",
+    "name": "Botas de safira",
+    "slot": "feet",
+    "rarity": "common",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "boots-male-blue.png",
+          "z": 25,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#180716",
+              "#281E41",
+              "#322D6A",
+              "#3C49AD",
+              "#466AC9",
+              "#61A0EF"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "boots-female-blue.png",
+          "z": 25,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#180716",
+              "#281E41",
+              "#322D6A",
+              "#3C49AD",
+              "#466AC9",
+              "#61A0EF"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "cape-blue",
+    "name": "Capa do crepúsculo",
+    "slot": "back",
+    "rarity": "rare",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "cape-bg-blue.png",
+          "z": 5,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#180716",
+              "#281E41",
+              "#322D6A",
+              "#3C49AD",
+              "#466AC9",
+              "#61A0EF"
+            ]
+          }
+        },
+        {
+          "file": "cape-fg-blue.png",
+          "z": 85,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#180716",
+              "#281E41",
+              "#322D6A",
+              "#3C49AD",
+              "#466AC9",
+              "#61A0EF"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "cape-bg-blue.png",
+          "z": 5,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#180716",
+              "#281E41",
+              "#322D6A",
+              "#3C49AD",
+              "#466AC9",
+              "#61A0EF"
+            ]
+          }
+        },
+        {
+          "file": "cape-fg-blue.png",
+          "z": 85,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#180716",
+              "#281E41",
+              "#322D6A",
+              "#3C49AD",
+              "#466AC9",
+              "#61A0EF"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "cape-red",
+    "name": "Capa escarlate",
+    "slot": "back",
+    "rarity": "rare",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "cape-bg-red.png",
+          "z": 5,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#400B1F",
+              "#651117",
+              "#82171C",
+              "#AB1E1E",
+              "#CD2429"
+            ]
+          }
+        },
+        {
+          "file": "cape-fg-red.png",
+          "z": 85,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#400B1F",
+              "#651117",
+              "#82171C",
+              "#AB1E1E",
+              "#CD2429"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "cape-bg-red.png",
+          "z": 5,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#400B1F",
+              "#651117",
+              "#82171C",
+              "#AB1E1E",
+              "#CD2429"
+            ]
+          }
+        },
+        {
+          "file": "cape-fg-red.png",
+          "z": 85,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#1d131e",
+              "#400B1F",
+              "#651117",
+              "#82171C",
+              "#AB1E1E",
+              "#CD2429"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "cape-lavender",
+    "name": "Capa astral",
+    "slot": "back",
+    "rarity": "rare",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "cape-bg-lavender.png",
+          "z": 5,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#13112d",
+              "#2B225A",
+              "#402E82",
+              "#7141B2",
+              "#A966DD",
+              "#D085ED"
+            ]
+          }
+        },
+        {
+          "file": "cape-fg-lavender.png",
+          "z": 85,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#13112d",
+              "#2B225A",
+              "#402E82",
+              "#7141B2",
+              "#A966DD",
+              "#D085ED"
+            ]
+          }
+        }
+      ],
+      "female": [
+        {
+          "file": "cape-bg-lavender.png",
+          "z": 5,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#13112d",
+              "#2B225A",
+              "#402E82",
+              "#7141B2",
+              "#A966DD",
+              "#D085ED"
+            ]
+          }
+        },
+        {
+          "file": "cape-fg-lavender.png",
+          "z": 85,
+          "palette": {
+            "from": [
+              "#281820",
+              "#4D4A5D",
+              "#958080",
+              "#C4B59F",
+              "#E5E6C7",
+              "#FFFFFF"
+            ],
+            "to": [
+              "#13112d",
+              "#2B225A",
+              "#402E82",
+              "#7141B2",
+              "#A966DD",
+              "#D085ED"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "wizard-blue",
+    "name": "Chapéu do aprendiz",
+    "slot": "head",
+    "rarity": "rare",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "wizard-blue.png",
+          "z": 130
+        }
+      ],
+      "female": [
+        {
+          "file": "wizard-blue.png",
+          "z": 130
+        }
+      ]
+    }
+  },
+  {
+    "id": "wizard-lavender",
+    "name": "Chapéu do arcanista",
+    "slot": "head",
+    "rarity": "epic",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "wizard-lavender.png",
+          "z": 130
+        }
+      ],
+      "female": [
+        {
+          "file": "wizard-lavender.png",
+          "z": 130
+        }
+      ]
+    }
+  },
+  {
+    "id": "wizard-red",
+    "name": "Chapéu do piromante",
+    "slot": "head",
+    "rarity": "rare",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "wizard-red.png",
+          "z": 130
+        }
+      ],
+      "female": [
+        {
+          "file": "wizard-red.png",
+          "z": 130
+        }
+      ]
+    }
+  },
+  {
+    "id": "crown-crown_gold",
+    "name": "Coroa dourada",
+    "slot": "head",
+    "rarity": "epic",
+    "starter": false,
+    "layers": {
+      "male": [
+        {
+          "file": "crown-crown_gold.png",
+          "z": 130
+        }
+      ],
+      "female": [
+        {
+          "file": "crown-crown_gold.png",
+          "z": 130
+        }
+      ]
+    }
+  }
+]
