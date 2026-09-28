@@ -4,6 +4,8 @@
 
 Crie uma tarefa com título, descrição e esforço. Mova o card entre A fazer, Em progresso e Concluído usando arraste ou o seletor de status. A busca filtra as tarefas; o arraste fica desativado durante a busca.
 
+Na branch `main` (após a Release v0.4.0), use **Adicionar etapa** para montar seu fluxo. Clique em **•••** numa coluna para renomeá-la, movê-la para os lados ou remover uma etapa personalizada vazia. Você também pode arrastar o ícone de alça no cabeçalho para reordenar colunas, dar dois cliques no nome para editá-lo e usar **Adicionar missão** dentro de cada etapa. O limite é 12 etapas. As etapas principais podem ser renomeadas e movidas, mas permanecem no quadro; a etapa originalmente chamada Concluído continua sendo a conclusão mesmo após receber outro nome.
+
 A primeira conclusão concede EXP e Gold. Reabrir e concluir a mesma tarefa novamente não gera recompensas adicionais. Após receber a recompensa, a dificuldade fica congelada; título e descrição continuam editáveis.
 
 | Esforço | EXP | Gold |
