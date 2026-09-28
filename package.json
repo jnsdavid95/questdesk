@@ -1,0 +1,105 @@
+{
+  "name": "questdesk",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "Gestão de tarefas com gamificação, personagens pixel art e calendário",
+  "author": {
+    "name": "Jonas David Kosniyzeko",
+    "url": "https://github.com/jnsdavid95"
+  },
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "build": "npm run typecheck && vite build && node scripts/build-desktop.mjs",
+    "desktop": "npm run build && electron .",
+    "package:win": "npm run build && electron-builder --win nsis",
+    "preview": "vite preview --host 127.0.0.1",
+    "assets:check": "node scripts/verify-lpc.mjs",
+    "package:linux": "npm run build && electron-builder --linux AppImage --x64",
+    "package:win:cross": "npm run build && electron-builder --win dir --x64 && makensis scripts/questdesk-installer.nsi"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.21",
+    "@fullcalendar/daygrid": "^6.1.21",
+    "@fullcalendar/google-calendar": "^6.1.21",
+    "@fullcalendar/interaction": "^6.1.21",
+    "@fullcalendar/list": "^6.1.21",
+    "@fullcalendar/react": "^6.1.21",
+    "@fullcalendar/timegrid": "^6.1.21",
+    "ical.js": "^2.2.1",
+    "lucide-react": "^0.468.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "electron": "44.4.5",
+    "electron-builder": "^26.0.0",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.0.0"
+  },
+  "build": {
+    "appId": "com.questdesk.app",
+    "productName": "QuestDesk",
+    "files": [
+      "dist/**/*",
+      "desktop/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "build/questdesk.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "QuestDesk-Setup-${version}-windows-${arch}.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Office",
+      "icon": "build/icons",
+      "executableName": "questdesk",
+      "syncDesktopName": true
+    },
+    "appImage": {
+      "artifactName": "QuestDesk-${version}-linux-${arch}.${ext}"
+    },
+    "toolsets": {
+      "appimage": "1.0.3"
+    },
+    "extraResources": [
+      {
+        "from": "LICENSE.md",
+        "to": "LICENSE.md"
+      },
+      {
+        "from": "AUTHORS.md",
+        "to": "AUTHORS.md"
+      },
+      {
+        "from": "THIRD_PARTY_NOTICES.md",
+        "to": "THIRD_PARTY_NOTICES.md"
+      },
+      {
+        "from": "third-party",
+        "to": "third-party"
+      }
+    ]
+  },
+  "desktopName": "com.questdesk.app.desktop",
+  "license": "UNLICENSED"
+}

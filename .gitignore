@@ -1,0 +1,16 @@
+node_modules/
+dist/
+desktop/
+release/
+squashfs-root/
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+questdesk-v1.json
+questdesk-v1.json.tmp
+.DS_Store
+Thumbs.db
