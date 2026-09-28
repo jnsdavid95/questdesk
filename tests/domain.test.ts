@@ -12,3 +12,22 @@ test('múltiplos níveis preservam experiência excedente',()=>{assert.deepEqual
 test('compra não permite saldo negativo nem altera estado ao falhar',()=>{const s=initialState();assert.throws(()=>reduce(s,{type:'buy',id:'ember'}));assert.equal(s.gold,0);s.gold=120;const result=reduce(reduce(s,{type:'buy',id:'ember'}).state,{type:'buy',id:'ember'}).state;assert.equal(result.gold,0);assert.equal(result.inventory[0].quantity,2);});
 test('ordenação move card antes do destino e não duplica tarefas',()=>{const s=reduce(initialState(),{type:'move',id:'welcome-2',status:'todo',beforeId:'welcome-1'}).state;assert.deepEqual(s.tasks.map(t=>t.id),['welcome-2','welcome-1']);assert.equal(s.xp,0);});
 test('entrada inválida é rejeitada e dificuldade fica congelada após recompensa',()=>{const original=initialState();assert.throws(()=>reduce(original,{type:'add',title:' ',description:'',difficulty:'easy'}));let s=reduce(original,{type:'move',id:'welcome-1',status:'done'},()=>.5).state;s=reduce(s,{type:'edit',id:'welcome-1',title:'Novo título',description:'',difficulty:'hard'}).state;assert.equal(s.tasks.find(t=>t.id==='welcome-1')?.difficulty,'easy');assert.throws(()=>stateSchema.parse({...s,version:2}));});
+test('quadro antigo ganha etapas padrão e novas etapas persistem sem conceder recompensa',()=>{
+ const old=initialState();const {columns:unused,...previous}=old;void unused;
+ let s=stateSchema.parse(JSON.parse(JSON.stringify(previous)));
+ assert.deepEqual(s.columns.map(c=>c.title),['A fazer','Em progresso','Concluído']);
+ s=reduce(s,{type:'columnRename',id:'doing',title:'Em revisão'}).state;
+ s=reduce(s,{type:'columnAdd',title:'Aguardando arte'},()=>.5,()=> 'custom-1').state;
+ s=reduce(s,{type:'move',id:'welcome-1',status:'custom-1'}).state;
+ assert.equal(s.xp,0);assert.equal(s.gold,0);
+ s=reduce(s,{type:'columnMove',id:'custom-1',beforeId:'doing'}).state;
+ assert.deepEqual(s.columns.map(c=>c.id),['todo','custom-1','doing','done']);
+ assert.throws(()=>reduce(s,{type:'columnRemove',id:'custom-1'}));
+ s=stateSchema.parse(JSON.parse(JSON.stringify(s)));
+ assert.equal(s.tasks.find(t=>t.id==='welcome-1')?.status,'custom-1');
+ s=reduce(s,{type:'move',id:'welcome-1',status:'done'},()=>.5).state;
+ assert.equal(s.xp,25);assert.equal(s.gold,10);
+ s=reduce(s,{type:'columnRemove',id:'custom-1'}).state;
+ assert.equal(s.columns.some(c=>c.id==='custom-1'),false);
+ assert.throws(()=>reduce(s,{type:'columnRemove',id:'done'}));
+});
